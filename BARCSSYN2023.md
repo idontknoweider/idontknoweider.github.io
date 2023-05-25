@@ -1,3 +1,7 @@
+layout: page
+title: "BARCCSYN2023"
+permalink: /BARCCSYN-2023
+
 ## Foreword
 
 Find a digital copy of the poster, with some errata corrected ![here](docs/BARCCSYN2023_poster.pdf)
