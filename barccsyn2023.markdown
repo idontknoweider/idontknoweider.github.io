@@ -1,19 +1,22 @@
 ---
 layout: page
-title: BARCCSYN 2023
+title: BARCCSYN 2023 Poster presentation
 permalink: /barccsyn2023/
 ---
 
-# Eider Pérez-Ordoyo Bellido (she/they)
-### Computational Neuroscience Group, Centre for Brain and Cognition, Universitat Pompeu Fabra
+## Eider Pérez-Ordoyo Bellido (she/they)
+
+Computational Neuroscience Group, Centre for Brain and Cognition, Universitat Pompeu Fabra
+
 ---
 
 ## BARCCSYN 2023 POSTER (NUMBER 45)
+
 ### Towards data-driven brain stimulation target discovery using single-subject whole brain models
 
 Find a digital copy of the poster is [here](./resources/BARCCSYN2023_poster.pdf).
 
-If you had trouble when reading my poster (colours, font size, it was not clear, etc.) and you want to help me improve, please, send me a message at eider.perezordoyo@upf.edu!
+If you had trouble when reading my poster (colours, font size, it was not clear, etc.) and you want to help me improve, please, send me a message at eider.perezordoyo(at)upf(dot)edu!
 
 <!--
 
@@ -23,4 +26,4 @@ If you had trouble when reading my poster (colours, font size, it was not clear,
 
 For more information, a more detailed explanation of the methods and more references regarding my work, please, check out my Ph.D. [research proposal](./resources/Research_proposal.pdf)
 
-Contact information: eider.perezordoyo@upf.edu
+Contact information: eider.perezordoyo(at)upf(dot)edu
