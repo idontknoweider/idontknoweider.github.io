@@ -4,9 +4,3 @@
 
 layout: home
 ---
-
-# Eider's personal webspace
-
-## Hosted on GitHub
-
-Here I will post stuff.

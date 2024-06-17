@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "BARCCSYN 2023 + poster presentation"
+title:  "BARCCSYN 2023"
 date:   2023-05-20 00:00:00 +0200
 categories: conference poster presentation
 ---
 
-Hello! I am Eider and I will attend (or am attending (or attended)) the BARCCSYN 2023 conference. There, I present [this work](./resources/BARCCSYN2023_poster.pdf) on brain states and forced transitions.
+Hello! I am Eider and I will attend (or am attending (or attended)) the BARCCSYN 2023 conference. There, I present [this work](../resources/BARCCSYN2023_poster.pdf) on brain states and forced transitions.
 
 I am affiliated with the Computational Neuroscience Group in the Centre for Brain and Cognition at the Universitat Pompeu Fabra
 
@@ -13,4 +13,4 @@ My poster is number 45! Titled **Towards data-driven brain stimulation target di
 
 If you had trouble when reading my poster (colours, font size, it was not clear, etc.) and you want to help me improve, please, send me a message at eider.perezordoyo(at)upf(dot)edu!
 
-For more information, a more detailed explanation of the methods and more references regarding my work, please, check out my Ph.D. [research proposal](./resources/Research_proposal.pdf)
+For more information, a more detailed explanation of the methods and more references regarding my work, please, check out my Ph.D. [research proposal](../resources/Research_proposal.pdf)
