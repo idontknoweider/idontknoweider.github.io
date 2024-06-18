@@ -4,14 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hey there!
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+My name is Eider L. Pérez-Ordoyo Bellido (quite the long name with 2 names and 2 surnames that are, secretly, 3 surnames in a trench coat). 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-[jekyll-organization]: https://github.com/jekyll
+My pronouns are she/they (meaning that I go by both she/her/her and they/them/their pronouns) in English; ella/elle en español; ella/elli en català; zij/haar/haar in Nederlands maar als u kunt hen/hen/hun gebruiken, gebruik ze dan; euskaraz ez dago generoarekin izenordainik!; etc.
