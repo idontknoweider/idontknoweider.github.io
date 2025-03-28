@@ -3,57 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Volleyball Team Generator</title>
-    <link rel="stylesheet" href="/assets/css/vtt-styles.css">
+    <title>Generador de equipos de voleibol</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Volleyball Team Generator</h1>
+    <h1>Generador de equipos de voleibol</h1>
 
     <div class="container">
         <div class="section">
-            <h2>Add Player to Pool</h2>
+            <h2>Añadir jugadora a la lista</h2>
             <input type="text" id="playerName" placeholder="Player Name">
             <select id="playerRole">
-                <option value="spiker">Spiker</option>
-                <option value="setter">Setter</option>
+                <option value="colocadora">Colocadora</option>
                 <option value="libero">Libero</option>
-                <option value="middle blocker">Middle Blocker</option>
-                <option value="outside hitter">Outside Hitter</option>
-                <option value="opposite">Opposite</option>
+                <option value="central">Central</option>
+                <option value="punta">Punta</option>
+                <option value="opuesta">Opuesta</option>
             </select>
-            <label for="skillLevel">Skill Level (1-5)</label>
-            <input type="number" id="skillLevel" min="1" max="5" value="3">
-            <button onclick="addToPool()">Add to Pool</button>
+            <button onclick="addToPool()">Añadir a la lista</button>
         </div>
 
         <div class="section">
-            <h2>Player Pool</h2>
+            <h2>Lista de jugadoras</h2>
             <div id="playerPool"></div>
         </div>
 
         <div class="section">
-            <h2>Match Sign-Up</h2>
-            <button onclick="clearSignUp()">Clear Sign-Up List</button>
+            <h2>Registro para el partido</h2>
             <div id="signUpList"></div>
+            <button onclick="clearSignUp()">Vaciar la lista</button>
         </div>
     </div>
 
     <div class="toggle-container">
-        <label for="noLiberoMode">No-Libero Mode (2 Middle Blockers Per Team)</label>
+        <label for="noLiberoMode">Jugar sin libero (2 centrales por equipo)</label>
         <input type="checkbox" id="noLiberoMode">
     </div>
 
-    <button onclick="generateTeams()">Generate Teams</button>
+    <button onclick="generateTeams()">Generar equipos</button>
 
-    <div id="teams">
-        <div class="team" id="teamA" ondrop="drop(event, 'teamA')" ondragover="allowDrop(event)">
-            <h2>Team A</h2>
+    <section class="container" id="teams">
+        <div class="team one" ondrop="drop(event, 'teamA')">
+            <h2>Equipo A</h2>
+            <div id="teamA"></div>
+            <button onclick="clearTeam('A')">Vaciar equipo A</button>
         </div>
-        <div class="team" id="teamB" ondrop="drop(event, 'teamB')" ondragover="allowDrop(event)">
-            <h2>Team B</h2>
+        <div class="team two" ondrop="drop(event, 'teamB')">
+            <h2>Equipo B</h2>
+            <div id="teamB"></div>
+            <button onclick="clearTeam('B')">Vaciar equipo B</button>
         </div>
-    </div>
+    </section>
 
-    <script src="/assets/scripts/vtt-script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

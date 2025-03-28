@@ -33,16 +33,16 @@ h1 {
 
 h2 {
     font-size: 18px;
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid #f1ff11;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
 /* Buttons */
 button {
-    background-color: #007bff;
-    color: white;
-    border: none;
+    background-color: #f1ff11;
+    color: black;
+    border: 1px solid #c0bd00;
     padding: 5px 10px;
     cursor: pointer;
     border-radius: 4px;
@@ -51,6 +51,10 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+.player-item.button-holder {
+    float: right;
 }
 
 /* Player List & Teams */
@@ -67,7 +71,7 @@ button:hover {
     align-items: center;
     min-height: 80px;
     width: 45%;
-    border: 2px dashed #007bff;
+    border: 2px dashed #f1ff11;
     padding: 10px;
 }
 
@@ -83,11 +87,28 @@ button:hover {
     align-items: center;
 }
 
+.team.one {
+    width: 45%;
+    background: #ff9999;
+}
+
+.team.two {
+    width: 45%;
+    background: #9999ff;
+}
+
+.highlight {
+    background-color: #ffeb3b;
+}
+
 /* Drag-and-Drop */
 .draggable {
     cursor: grab;
-    user-select: none;
-    background: #f8f9fa;
+    padding: 5px;
+    margin: 5px;
+    /* user-select: none; */
+    background-color: #f2f2f2;
+    border: 1px solid #000000;
 }
 
 .draggable:active {
