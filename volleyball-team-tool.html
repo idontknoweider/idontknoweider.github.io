@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volleyball Team Generator</title>
+    <link rel="stylesheet" href="/assets/css/vtt-styles.css">
+</head>
+<body>
+    <h1>Volleyball Team Generator</h1>
+
+    <div class="container">
+        <div class="section">
+            <h2>Add Player to Pool</h2>
+            <input type="text" id="playerName" placeholder="Player Name">
+            <select id="playerRole">
+                <option value="spiker">Spiker</option>
+                <option value="setter">Setter</option>
+                <option value="libero">Libero</option>
+                <option value="middle blocker">Middle Blocker</option>
+                <option value="outside hitter">Outside Hitter</option>
+                <option value="opposite">Opposite</option>
+            </select>
+            <label for="skillLevel">Skill Level (1-5)</label>
+            <input type="number" id="skillLevel" min="1" max="5" value="3">
+            <button onclick="addToPool()">Add to Pool</button>
+        </div>
+
+        <div class="section">
+            <h2>Player Pool</h2>
+            <div id="playerPool"></div>
+        </div>
+
+        <div class="section">
+            <h2>Match Sign-Up</h2>
+            <button onclick="clearSignUp()">Clear Sign-Up List</button>
+            <div id="signUpList"></div>
+        </div>
+    </div>
+
+    <div class="toggle-container">
+        <label for="noLiberoMode">No-Libero Mode (2 Middle Blockers Per Team)</label>
+        <input type="checkbox" id="noLiberoMode">
+    </div>
+
+    <button onclick="generateTeams()">Generate Teams</button>
+
+    <div id="teams">
+        <div class="team" id="teamA" ondrop="drop(event, 'teamA')" ondragover="allowDrop(event)">
+            <h2>Team A</h2>
+        </div>
+        <div class="team" id="teamB" ondrop="drop(event, 'teamB')" ondragover="allowDrop(event)">
+            <h2>Team B</h2>
+        </div>
+    </div>
+
+    <script src="/assets/script/vtt-script.js"></script>
+</body>
+</html>
